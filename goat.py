@@ -4,7 +4,7 @@ import requests
 import json
 
 token = 'NjYwOTEzMTQwOTY3NjY5ODAx.XgjxXw.pkfDGveuX_MetYxrXxOumPx0rA0'
-client = commands.Bot(command_prefix = '.')
+client = commands.Bot(command_prefix = '/goat')
 
 @client.command(pass_context=True)
 async def goat(ctx, *args):
